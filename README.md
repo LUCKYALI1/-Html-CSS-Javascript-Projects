@@ -1,2 +1,4 @@
 # -Html-CSS-Javascript-Projects
-basic project based on html-css-javascript
+hello 
+This repository cobtain the Basic project based on html-css-javascript as following.
+1 - Weather App ( using weather api ) 
