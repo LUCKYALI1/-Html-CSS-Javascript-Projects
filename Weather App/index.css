@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(93, 45, 74) ;
+    /* background: url(/img/background-weather-vector-1021999.jpg); */
+    background-repeat: no-repeat;
+   background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+    width: 80%;
+    max-width: 400px;
+    /* background:linear-gradient(135deg,#e89552,#0cffff); */
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 20px 20px;
+    
+  
+    
+}
+.search{
+    
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#src-icon{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+   transition: all 0.5s ease;
+}
+#src-icon:hover{
+    transform: scale(1.1);
+    
+}
+.search button{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+   
+}
+.search button:hover{
+    border: 1px solid rgb(251, 197, 197);
+}
+#src-box{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: black;
+    border-radius: 20px;
+    flex: 1;
+    font-size: 15px;
+    margin:  auto;
+    padding: 20px 20px;
+    height: 40px;
+    width: calc(20%);
+    transition: all 0.5s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+.weather-icon {
+    margin: auto;
+    margin-top: 25px;
+    padding: 15px 30px;
+    width: 338px;
+    height: 200px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 25%;
+}
+.details>.col>img{
+    width: 100px;
+}
+.col{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    text-align: center;
+
+}
+.col:hover{
+    transform: scale(1.1);
+    box-shadow: -2px 4px 20px #fbebeb ;
+}
+.temp,.city{
+    margin: 10px 20px;
+}
